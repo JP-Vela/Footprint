@@ -24,3 +24,6 @@ with open("cross_output\\output.json", "w", encoding="utf-8") as f:
 
 
 # Calculate similarity scores
+keywords = []
+names = []
+# Search json data for those keywords. Possibly use text embeddings to find more similarities
